@@ -84,7 +84,7 @@ const Commentsec = () => {
         <h3 className="font-semibold text-lg mb-4">All Comments:</h3>
         <div>
           {comments.map((item) => (
-            <div className="mb-4 p-4 border border-gray-300 rounded-md shadow-sm">
+            <div key={item.comment} className="mb-4 p-4 border border-gray-300 rounded-md shadow-sm">
               <strong className="text-blue-500">{item.username}</strong>
               <p className="mt-2">{item.comment}</p>
             </div>
