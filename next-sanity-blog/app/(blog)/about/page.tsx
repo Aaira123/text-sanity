@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
             About Us
           </h1>
           <p className="mt-4 text-lg sm:text-xl">
-            Learn more about who we are, our mission, and our values. We're here to make a difference.
+            Learn more about who we are, our mission, and our values. We&apos;re here to make a difference.
           </p>
         </div>
       </section>
@@ -38,19 +39,19 @@ const About = () => {
           <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Team Member 1 */}
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <img className="w-32 h-32 mx-auto rounded-full" src="https://via.placeholder.com/150" alt="Team Member 1" />
+              <Image className="w-32 h-32 mx-auto rounded-full" src="https://via.placeholder.com/150" alt="Team Member 1" />
               <h3 className="mt-4 text-xl font-semibold text-gray-900">John Doe</h3>
               <p className="mt-2 text-gray-500">CEO & Founder</p>
             </div>
             {/* Team Member 2 */}
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <img className="w-32 h-32 mx-auto rounded-full" src="https://via.placeholder.com/150" alt="Team Member 2" />
+              <Image className="w-32 h-32 mx-auto rounded-full" src="https://via.placeholder.com/150" alt="Team Member 2" />
               <h3 className="mt-4 text-xl font-semibold text-gray-900">Jane Smith</h3>
               <p className="mt-2 text-gray-500">Marketing Head</p>
             </div>
             {/* Team Member 3 */}
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <img className="w-32 h-32 mx-auto rounded-full" src="https://via.placeholder.com/150" alt="Team Member 3" />
+              <Image className="w-32 h-32 mx-auto rounded-full" src="https://via.placeholder.com/150" alt="Team Member 3" />
               <h3 className="mt-4 text-xl font-semibold text-gray-900">Bob Johnson</h3>
               <p className="mt-2 text-gray-500">Lead Developer</p>
             </div>
